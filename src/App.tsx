@@ -27,11 +27,11 @@ function App() {
 
   return (
    <div className="App">
-        <Router>
+        <Router basename='/documentation-react-mfe'>
           <nav>
             <ul>
               <li>
-                <Link to="/" onClick={() => setCurrentPath('/')}>Home</Link>
+                <Link to="/home" onClick={() => setCurrentPath('/home')}>Home</Link>
               </li>
               <li>
                 <Link to="/documentation" onClick={() => setCurrentPath('/documentation')}>Documentation</Link>
@@ -42,7 +42,7 @@ function App() {
             </ul>
           </nav>
           <Routes>
-            <Route path="/" element={<h1>Welcome to the Documentation Site</h1>} />
+            <Route path="/home" element={<h1>Welcome to the Documentation Site</h1>} />
             <Route path="/documentation" element={<ReactMarkdown>{markdown}</ReactMarkdown>} />
             <Route path="/libraries" element={<ReactMarkdown>{markdown}</ReactMarkdown>} />
           </Routes>
