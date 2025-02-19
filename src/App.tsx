@@ -17,9 +17,9 @@ function App() {
     setCurrentPath(window.location.pathname);
     console.log('currentPath',currentPath);
     if (currentPath === '/documentation') {
-      fetchMarkdown('../public/documentation/Frameworks.md');
+      fetchMarkdown('/documentation/Frameworks.md');
     } else if (currentPath === '/libraries') {
-      fetchMarkdown('../public/documentation/Libraries.md');
+      fetchMarkdown('/documentation/Libraries.md');
     } else {
       setMarkdown('');
     }
