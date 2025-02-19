@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/documentation-react-mfe/static/css/main.f855e6bc.css",
-    "main.js": "/documentation-react-mfe/static/js/main.0298af48.js",
+    "main.js": "/documentation-react-mfe/static/js/main.a22d7bfc.js",
     "static/js/453.35f36109.chunk.js": "/documentation-react-mfe/static/js/453.35f36109.chunk.js",
     "index.html": "/documentation-react-mfe/index.html",
     "main.f855e6bc.css.map": "/documentation-react-mfe/static/css/main.f855e6bc.css.map",
-    "main.0298af48.js.map": "/documentation-react-mfe/static/js/main.0298af48.js.map",
+    "main.a22d7bfc.js.map": "/documentation-react-mfe/static/js/main.a22d7bfc.js.map",
     "453.35f36109.chunk.js.map": "/documentation-react-mfe/static/js/453.35f36109.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.0298af48.js"
+    "static/js/main.a22d7bfc.js"
   ]
 }
