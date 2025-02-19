@@ -26,8 +26,7 @@ function App() {
   }, [currentPath]);
 
   return (
-    
-      <div className="App">
+   <div className="App">
         <Router>
           <nav>
             <ul>
